@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
+import { router } from './Routes/Routes';
 
 function App() {
   return (
     <div className="App">
-
+      <RouterProvider router={router} />
     </div>
   );
 }
