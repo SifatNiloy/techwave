@@ -1,12 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import banner1 from '../../../assets/banner1.png'
 const Banner = () => {
     return (
         <Carousel>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    src={banner1}
                     alt="First slide"
                 />
                 <Carousel.Caption>
